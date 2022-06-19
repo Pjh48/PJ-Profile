@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VK Profile - Registration</title>
+    <link rel="stylesheet" href="../css/account.css">
+    <script src="https://kit.fontawesome.com/153ebc1171.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="register">
+            <h2>Sign Up</h2>
+            <form action="">
+                <div class="row"> 
+                    <div class="groups">
+                        <i class="fas fa-user-tie icon"></i>
+                        <label for="fn"><b>Full Name</b></label>                    
+                        <input type="text" class="txt" placeholder="Full Name" name="fn" id="fn" required autofocus="true">
+                    </div>
+                </div>
+                <div class="row">                
+                    <div class="group">
+                        <i class="fas fa-user-alt icon"></i>
+                        <label for="user"><b>Username</b></label>
+                        <input type="text" class="txt" placeholder="Username" name="user" id="user" required>
+                    </div>
+                    <div class="group">
+                        <i class="fas fa-phone icon"></i>
+                        <label for="phn"><b>Phone no</b></label>
+                        <input type="tel" class="txt" placeholder="Phone no" name="phn" id="phn" required>
+                    </div>
+                </div>
+                <div class="row"> 
+                    <div class="group">
+                        <i class="fas fa-envelope-open icon"></i>
+                        <label for="email"><b>Email</b></label>
+                        <input type="email" class="txt" placeholder="Email" name="email" id="email" required>
+                    </div>
+                    <div class="group">
+                        <i class="fas fa-lock icon"></i>
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" class="txt" placeholder="Password" name="psw" id="psw" required>
+                    </div>
+                </div>
+                <div class="groups">
+                    <input type="checkbox" name="terms" id="terms" class="terms">
+                    <label for="terms">I agree to the 
+                        <a href='#' className='remember'> Terms of Service</a></label>
+                </div>
+                <div class="groups">
+                    <button type="submit" class="btn">Sign Up</button>
+                </div>
+                <div class="row sign" style="text-align: center;">
+                    <p>Already a member? Please <a href="./login.html">Sign In</a> here</p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
